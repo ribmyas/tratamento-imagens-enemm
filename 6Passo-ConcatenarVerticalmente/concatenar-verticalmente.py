@@ -10,7 +10,7 @@ from PIL import Image
 import os
 import re
 
-pasta_imagens = "paginas-29a31"
+pasta_imagens = "/home/administrador/Documentos/tratamento-imagens-enem/6Passo-ConcatenarVerticalmente/divididas-sem-bordas-do-meio"
 pasta_saida = "29a31"
 os.makedirs(pasta_saida, exist_ok=True)
 
