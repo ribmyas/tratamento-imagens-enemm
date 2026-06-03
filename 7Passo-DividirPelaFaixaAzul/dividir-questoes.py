@@ -119,8 +119,8 @@ def dividir_imagem_por_faixas(caminho_imagem, pasta_saida, cor_alvo=(64, 193, 24
 # Exemplo de uso
 if __name__ == "__main__":
     # Configurações
-    caminho_imagem = "/home/administrador/Documentos/tratamento-imagens-enem/7Passo-DividirPelaFaixaAzul/29a31 copy/todas_juntas.png"  # Substitua pelo caminho da sua imagem
-    pasta_saida = "questoes-paginas-29a31"
+    caminho_imagem = "pagina_enem_28.png"  # Substitua pelo caminho da sua imagem
+    pasta_saida = "pagina_28"
     
     # Converte a cor do GIMP (25.1, 75.7, 95.3) para RGB (0-255)
     cor_azul = converter_cor_gimp_para_rgb(25.1, 75.7, 95.3)
